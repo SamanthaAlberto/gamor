@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.35s;
+}
+body {
+  background-color: #1b2027;
+}
+header {
+  padding: 62px 24px;
+}
+.flex {
+  display: flex;
+}
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  flex: 1;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li {
+  flex: 1;
+  text-align: center;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.menu ul li a:hover {
+  opacity: 0.7;
+}
+
+/* -----logo----- */
+.logo {
+  flex: 1.5;
+}
+
+.logo h1 {
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+/* ------logo----- */
+
+.account {
+  flex: 1;
+}
+.account ul {
+  list-style: none;
+  display: flex;
+}
+.account ul li {
+  flex: 1;
+  text-align: center;
+}
+.account ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.account ul li a:hover {
+  opacity: 0.7;
+}
+
+.account .create {
+  border: 1px solid #2d3036;
+  border-radius: 50px;
+  padding: 16px 24px;
+  background-color: #14171c;
+}
+
+.account .create:hover {
+  border: 1px solid white;
+  opacity: 1;
+  color: white;
+}
